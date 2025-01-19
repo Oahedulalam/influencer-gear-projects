@@ -1,5 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.poppins-thin-font{
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: normal;
+}
 *{
 margin:0;
 padding:0;
 box-sizing:border-box;
+}
+/* Full body Font family */
+body{
+font-family: "Poppins", serif;
+}
+/* Share  styles */
+.display-flex{
+display: flex;
+}
+
+/* navbar related style */
+.navbar{
+justify-content: center;
+gap: 490px;
+}
+.nav-title{
+margin-top: 80px;
+padding-left: 100px;
+
+font-weight: 700px;
+font-size: 24;
+color: rgba(58, 58, 58, 1);
+}
+.nav-item{
+list-style: none;
+margin-right: 34px;
+}
+.nav-link{
+text-decoration: none;
+font-style: 600;
+color: rgba(58, 58, 58, 1);
+}
+/* nav bar links styles */
+.nav-links{
+margin-top: 95px;
+}
+.img-1{
+border: 1px solid white;
+width: 24px;
+height: 24px;
+}
+.img-2{
+border: 1px solid white;
+width: 30px;
+height: 30px;
+}
+/* banner-section and background image related styles */
+.banner-section{
+background-image: url('/images/Circle\ design.svg');
+background-repeat: no-repeat;
+background-position: right;
+margin-right: 165px;
+background-size: 450px 450px;
+margin-top: 50px;
+display: flex;
+align-items: center;
+gap: 133px;
+}
+.banner-content{
+margin-top: 145px;
+margin-left: 100px;
+
+}
+.banner-imsge{
+
+}
+.short-p{
+margin: 16px 0;
+font-weight: 600;
+font-size: 16px;
+color: rgba(58, 58, 58, 1);
+}
+/* Preebook-now btn type style */
+.Preebook-btn{
+background-color: rgba(224, 44, 109, 1);
+text-align: center;
+color: white;
+padding: 10px 24px;
+border-radius:17px;
 }
