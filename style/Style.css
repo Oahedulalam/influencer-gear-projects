@@ -71,7 +71,7 @@ margin-top: 145px;
 margin-left: 100px;
 
 }
-.banner-imsge{
+.banner-image{
 
 }
 .short-p{
@@ -87,4 +87,43 @@ text-align: center;
 color: white;
 padding: 10px 24px;
 border-radius:17px;
+border-style: none;
+}
+/* sponsorbar section related style */
+
+.sponsor-bar{
+background-color: rgba(255, 255, 255, 1);
+border: 1px solid rgba(192, 204, 218, 1);
+border-right: hidden;
+border-left: hidden;
+background-size: 80px 900px;
+gap: 60px;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 40px 450px;
+margin-top: 70px;
+margin-left: 100px;
+
+
+
+
+
+/* Responsive media query */
+@media screen and (max-width:576px){
+.banner-section, .navbar, .nav-links{
+flex-direction: column;
+gap: 20px;
+align-items: center;
+}
+.banner-image{
+display: grid;
+grid-template-columns:1,1fr;
+align-items: center;
+}
+..sponsor-bar{
+display: grid;
+grid-template-columns: repeat(7, 7fr);
+}
+
 }
